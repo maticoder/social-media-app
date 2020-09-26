@@ -10,6 +10,7 @@ var allowedOrigins = [
     "http://localhost:3000",
     "https://social-media-maticoder.netlify.app",
 ];
+
 app.use(
     cors({
         origin: function (origin, callback) {
