@@ -1,0 +1,245 @@
+#community .community {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+
+#community .community .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#community .community .top .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#community .community .top .content h1 {
+  color: #E91E63;
+  font-size: 4rem;
+  max-width: 35rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+#community .community .top .content p {
+  color: #8c8b99;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 140%;
+  max-width: 40rem;
+  margin-bottom: 4rem;
+}
+
+#community .community .top .content a:hover button {
+  background-color: #d31d59;
+}
+
+#community .community .top .content a button {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: white;
+  background-color: #E91E63;
+  padding: 0.8rem 2.4rem;
+  text-transform: none;
+}
+
+#community .community bottom {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#community .community bottom .img-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50rem;
+}
+
+@media only screen and (min-width: 576px) {
+  #community .community {
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  #community .community .top .content h1 {
+    font-size: 4.5rem;
+    max-width: 40rem;
+  }
+  #community .community .top .content p {
+    font-size: 1.7rem;
+    max-width: 50rem;
+    margin-bottom: 4.5rem;
+  }
+  #community .community .top .content a button {
+    font-size: 1.7rem;
+  }
+  #community .community .bottom .img-container {
+    max-width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #community .community {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #community .community .top .content h1 {
+    font-size: 5rem;
+    max-width: 45rem;
+  }
+  #community .community .top .content p {
+    font-size: 1.8rem;
+    max-width: 50rem;
+    margin-bottom: 5rem;
+  }
+  #community .community .top .content a button {
+    font-size: 1.8rem;
+  }
+  #community .community .bottom .img-container {
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #community .community {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  #community .community .top {
+    margin-bottom: 0;
+  }
+  #community .community .top .content {
+    text-align: left;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #community .community .top .content h1 {
+    font-size: 3.5rem;
+    max-width: 40rem;
+    margin-bottom: 1rem;
+  }
+  #community .community .top .content p {
+    font-size: 1.5rem;
+    max-width: 45rem;
+    margin-bottom: 2rem;
+  }
+  #community .community .top .content a button {
+    font-size: 1.5rem;
+  }
+  #community .community .bottom .img-container {
+    max-width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #community .community .top .content h1 {
+    font-size: 4rem;
+    max-width: 40rem;
+  }
+  #community .community .top .content p {
+    font-size: 1.6rem;
+    max-width: 50rem;
+  }
+  #community .community .top .content a button {
+    font-size: 1.6rem;
+  }
+  #community .community .bottom .img-container {
+    max-width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #community .community {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #community .community .top .content h1 {
+    font-size: 4.5rem;
+    max-width: 45rem;
+  }
+  #community .community .top .content p {
+    font-size: 1.6rem;
+  }
+  #community .community .bottom .img-container {
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #community .community {
+    margin-top: 7rem;
+    padding-top: 7rem;
+  }
+  #community .community .top .content h1 {
+    font-size: 5rem;
+    max-width: 50rem;
+    margin-bottom: 1.5rem;
+  }
+  #community .community .top .content p {
+    font-size: 1.7rem;
+    margin-bottom: 2.5rem;
+  }
+  #community .community .top .content a button {
+    font-size: 1.7rem;
+  }
+  #community .community .bottom .img-container {
+    max-width: 65rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #community .community {
+    margin-top: 9rem;
+    padding-top: 9rem;
+  }
+  #community .community .top .content h1 {
+    font-size: 6rem;
+    max-width: 60rem;
+    margin-bottom: 2rem;
+  }
+  #community .community .top .content p {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
+  #community .community .top .content a button {
+    font-size: 1.8rem;
+  }
+  #community .community .bottom .img-container {
+    max-width: 70rem;
+  }
+}

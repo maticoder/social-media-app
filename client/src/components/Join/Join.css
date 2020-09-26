@@ -1,0 +1,208 @@
+#join .join {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+
+#join .join h1 {
+  color: #4872C8;
+  font-size: 4rem;
+  font-weight: 400;
+  text-align: center;
+  line-height: 100%;
+  margin-bottom: 2rem;
+}
+
+#join .join p {
+  color: #8c8b99;
+  font-size: 1.6rem;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 2.5rem;
+  line-height: 140%;
+  max-width: 38rem;
+}
+
+#join .join button {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: white;
+  background-color: #4872c8;
+  padding: 0.8rem 2.4rem;
+  text-transform: none;
+}
+
+#join .join button:hover {
+  background-color: #3d64b1;
+}
+
+#join .join div {
+  font-size: 1.6rem;
+  width: 250px;
+  margin-bottom: 1rem;
+}
+
+#join .join div label {
+  font-size: 1.6rem;
+}
+
+@media only screen and (min-width: 576px) {
+  #join .join {
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  #join .join h1 {
+    font-size: 4.5rem;
+  }
+  #join .join p {
+    font-size: 1.7rem;
+    max-width: 50rem;
+  }
+  #join .join button {
+    font-size: 1.7rem;
+  }
+  #join .join div {
+    font-size: 1.7rem;
+    width: 300px;
+  }
+  #join .join div label {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #join .join {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #join .join h1 {
+    font-size: 5rem;
+  }
+  #join .join p {
+    font-size: 1.8rem;
+    max-width: 65rem;
+  }
+  #join .join button {
+    font-size: 1.8rem;
+  }
+  #join .join div {
+    font-size: 1.8rem;
+    width: 350px;
+  }
+  #join .join div label {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #join .join {
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  #join .join h1 {
+    font-size: 3.5rem;
+  }
+  #join .join p {
+    font-size: 1.5rem;
+    max-width: 60rem;
+  }
+  #join .join button {
+    font-size: 1.5rem;
+  }
+  #join .join div {
+    font-size: 1.5rem;
+    width: 250px;
+  }
+  #join .join div label {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #join .join {
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  #join .join h1 {
+    font-size: 4rem;
+  }
+  #join .join p {
+    font-size: 1.6rem;
+    max-width: 60rem;
+  }
+  #join .join button {
+    font-size: 1.6rem;
+  }
+  #join .join div {
+    font-size: 1.6rem;
+    width: 300px;
+  }
+  #join .join div label {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #join .join {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #join .join h1 {
+    font-size: 4.5rem;
+  }
+  #join .join p {
+    font-size: 1.6rem;
+    max-width: 70rem;
+  }
+  #join .join button {
+    font-size: 1.6rem;
+  }
+  #join .join div {
+    font-size: 1.6rem;
+    width: 300px;
+  }
+  #join .join div label {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #join .join {
+    margin-top: 7rem;
+    padding-top: 7rem;
+  }
+  #join .join h1 {
+    font-size: 5rem;
+  }
+  #join .join p {
+    font-size: 1.7rem;
+    max-width: 70rem;
+  }
+  #join .join button {
+    font-size: 1.7rem;
+  }
+  #join .join div {
+    font-size: 1.7rem;
+    width: 350px;
+  }
+  #join .join div label {
+    font-size: 1.7rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #join .join {
+    margin-top: 9rem;
+    padding-top: 9rem;
+  }
+}

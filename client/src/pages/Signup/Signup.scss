@@ -1,0 +1,88 @@
+#signup .signup {
+    text-align: center;
+
+    .signup-form {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 4rem 0;
+
+        img {
+            width: 100%;
+            max-width: 30rem;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 7rem;
+            font-weight: 400;
+            margin-bottom: 5rem;
+
+            span:nth-child(1) {
+                color: #4872C8;
+            }
+
+            span:nth-child(2) {
+                color: #E91E63;
+            }
+        }
+
+        label,
+        div {
+            font-size: 1.5rem;
+        }
+
+        .name-input {
+            margin-top: 4rem;
+        }
+
+        .email-input,
+        .password-input,
+        .confirm-password-input {
+            margin-top: 1rem;
+        }
+
+        .extensions {
+            margin-top: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 1.5rem;
+            font-weight: 300;
+
+            .accept-terms-of-service {
+                display: flex;
+                align-items: center;
+
+                .terms-conditions {
+                    color: #E91E63;
+                }
+            }
+
+            svg {
+                font-size: 2rem;
+            }
+        }
+
+        .signup-button {
+            margin-top: 1.5rem;
+            font-size: 1.5rem;
+            text-transform: none;
+            margin-bottom: 1rem;
+        }
+
+        .back-button {
+            font-size: 1.5rem;
+            text-transform: none;
+        }
+
+        .have-account {
+            margin-top: 2rem;
+            font-size: 1.5rem;
+
+            .log-in-link {
+                color: #E91E63;
+            }
+        }
+    }
+}

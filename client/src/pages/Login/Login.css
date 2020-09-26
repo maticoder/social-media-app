@@ -1,0 +1,136 @@
+#login .login {
+  text-align: center;
+}
+
+#login .login .login-form {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem 0;
+}
+
+#login .login .login-form img {
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+}
+
+#login .login .login-form h1 {
+  font-size: 7rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+#login .login .login-form h1 span:nth-child(1) {
+  color: #4872C8;
+}
+
+#login .login .login-form h1 span:nth-child(2) {
+  color: #E91E63;
+}
+
+#login .login .login-form .login-with-google-button {
+  width: 100%;
+  border: none;
+  background-color: white;
+  -webkit-box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+          box-shadow: 0 3px 4px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 2px;
+  padding: 10px 0px;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+#login .login .login-form .login-with-email-text {
+  width: 100%;
+  text-align: center;
+  color: #aaaaaa;
+  border-bottom: 1px solid #aaaaaa;
+  line-height: 0.1em;
+  margin: 50px 0 20px;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+#login .login .login-form .login-with-email-text span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+#login .login .login-form .login-input {
+  margin-top: 4rem;
+}
+
+#login .login .login-form .login-input label,
+#login .login .login-form .login-input div {
+  font-size: 1.5rem;
+}
+
+#login .login .login-form .password-input {
+  margin-top: 10px;
+}
+
+#login .login .login-form .password-input label,
+#login .login .login-form .password-input div {
+  font-size: 1.5rem;
+}
+
+#login .login .login-form .custom-error {
+  font-size: 1.2rem;
+  color: #f44336;
+  margin-top: 3px;
+}
+
+#login .login .login-form .extensions {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#login .login .login-form .extensions .keep-logged-in {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#login .login .login-form .extensions .forget-password-link {
+  color: #E91E63;
+}
+
+#login .login .login-form .extensions svg {
+  font-size: 2rem;
+}
+
+#login .login .login-form .login-button {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  text-transform: none;
+  margin-bottom: 1rem;
+}
+
+#login .login .login-form .back-button {
+  font-size: 1.5rem;
+  text-transform: none;
+}
+
+#login .login .login-form .dont-have-account {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+#login .login .login-form .dont-have-account .sign-up-link {
+  color: #E91E63;
+}

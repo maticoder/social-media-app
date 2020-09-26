@@ -1,0 +1,279 @@
+#cards .cards {
+    margin-top: 4rem;
+    padding-top: 4rem;
+
+    h1 {
+        color: #4872C8;
+        font-size: 4rem;
+        font-weight: 400;
+        text-align: center;
+        line-height: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+            padding: 3rem 4rem 4rem;
+            max-width: 40rem;
+            margin: 2rem 0;
+            transition: all .2s, transform .2s;
+            user-select: none;
+
+            &:hover {
+                box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+                transform: translateY(-3px);
+            }
+
+            h2 {
+                color: #4872C8;
+                font-size: 2rem;
+                font-weight: 400;
+                margin-bottom: 1rem;
+            }
+
+            p {
+                color: #7C95C9;
+                font-size: 1.5rem;
+                font-weight: 400;
+                // max-width: 25rem;
+            }
+
+            .icon {
+                margin-bottom: 2rem;
+
+                svg {
+                    width: 80px;
+                    height: auto;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #cards .cards {
+        margin-top: 5rem;
+        padding-top: 5rem;
+
+        h1 {
+            font-size: 4.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .content {
+            .card {
+                h2 {
+                    font-size: 2.2rem;
+                }
+
+                p {
+                    // font-size: 1.6rem;
+                }
+
+                .icon {
+                    margin-bottom: 2.5rem;
+
+                    svg {
+                        width: 90px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #cards .cards {
+        margin-top: 6rem;
+        padding-top: 6rem;
+
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 4rem;
+        }
+
+        .content {
+            flex-wrap: wrap;
+            flex-direction: row;
+            align-items: initial;
+            max-width: 70rem;
+            margin-left: auto;
+            margin-right: auto;
+
+            .card {
+                flex: 40%;
+                margin: 2rem 2rem;
+                min-height: 346px;
+
+                h2 {
+                    font-size: 2.4rem;
+                }
+
+                p {
+                    // font-size: 1.6rem;
+                }
+
+                .icon {
+                    margin-bottom: 2rem;
+
+                    svg {}
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #cards .cards {
+        margin-top: 5rem;
+        padding-top: 5rem;
+
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .content {
+            // max-width: 75rem;
+
+            .card {
+                flex: 35%;
+                margin: 2rem 4rem;
+
+                h2 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #cards .cards {
+        margin-top: 5rem;
+        padding-top: 5rem;
+
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 3rem;
+        }
+
+        .content {
+            max-width: 80rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #cards .cards {
+        margin-top: 6rem;
+        padding-top: 6rem;
+
+        h1 {
+            font-size: 4.5rem;
+            margin-bottom: 4rem;
+        }
+
+        .content {
+            max-width: 90rem;
+
+            .card {
+                flex: 35%;
+                margin: 2rem 4rem;
+                padding: 4rem 4rem 5rem;
+
+                h2 {
+                    font-size: 2.4rem;
+                }
+
+                p {
+                    font-size: 1.6rem;
+                }
+
+                .icon {
+                    margin-bottom: 3rem;
+
+                    svg {
+                        width: 100px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #cards .cards {
+        margin-top: 7rem;
+        padding-top: 7rem;
+
+        h1 {
+            font-size: 5rem;
+            margin-bottom: 5rem;
+        }
+
+        .content {
+            max-width: 1200px;
+
+            .card {
+                flex: 20%;
+                margin: 0 1.5rem;
+                min-height: initial;
+                padding: 4rem 4rem 3rem;
+
+                h2 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #cards .cards {
+        margin-top: 9rem;
+        padding-top: 9rem;
+
+        h1 {
+            // font-size: 6rem;
+            // margin-bottom: 6rem;
+        }
+
+        .content {
+            max-width: 1300px;
+
+            .card {
+                margin: 0 2rem;
+                padding: 4rem 5rem 3rem;
+
+                h2 {
+                    font-size: 2.4rem;
+                }
+
+                p {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+    }
+}

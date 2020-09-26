@@ -1,0 +1,299 @@
+#community .community {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    padding-top: 4rem;
+
+    .top {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 4rem;
+        flex: 1;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+
+            h1 {
+                color: #E91E63;
+                font-size: 4rem;
+                max-width: 35rem;
+                font-weight: 400;
+                margin-bottom: 2rem;
+            }
+
+            p {
+                color: #8c8b99;
+                font-size: 1.6rem;
+                font-weight: 300;
+                line-height: 140%;
+                max-width: 40rem;
+                margin-bottom: 4rem;
+            }
+
+            a {
+                &:hover {
+                    button {
+                        background-color: #d31d59;
+                    }
+                }
+
+                button {
+                    font-size: 1.6rem;
+                    font-weight: 400;
+                    color: white;
+                    background-color: #E91E63;
+                    padding: 0.8rem 2.4rem;
+                    text-transform: none;
+                }
+            }
+        }
+    }
+
+    bottom {
+        flex: 1;
+
+        .img-container {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 50rem;
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #community .community {
+        margin-top: 5rem;
+        padding-top: 5rem;
+
+        .top {
+            .content {
+                h1 {
+                    font-size: 4.5rem;
+                    max-width: 40rem;
+                }
+
+                p {
+                    font-size: 1.7rem;
+                    max-width: 50rem;
+                    margin-bottom: 4.5rem;
+                }
+
+                a {
+                    button {
+                        font-size: 1.7rem;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 55rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #community .community {
+        margin-top: 6rem;
+        padding-top: 6rem;
+
+        .top {
+            .content {
+                h1 {
+                    font-size: 5rem;
+                    max-width: 45rem;
+                }
+
+                p {
+                    font-size: 1.8rem;
+                    max-width: 50rem;
+                    margin-bottom: 5rem;
+                }
+
+                a {
+                    button {
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 60rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #community .community {
+        flex-direction: row;
+        margin-top: 5rem;
+        padding-top: 5rem;
+
+        .top {
+            margin-bottom: 0;
+
+            .content {
+                text-align: left;
+                align-items: flex-start;
+
+                h1 {
+                    font-size: 3.5rem;
+                    max-width: 40rem;
+                    margin-bottom: 1rem;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                    max-width: 45rem;
+                    margin-bottom: 2rem;
+                }
+
+                a {
+                    button {
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 55rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #community .community {
+        .top {
+            .content {
+                h1 {
+                    font-size: 4rem;
+                    max-width: 40rem;
+                }
+
+                p {
+                    font-size: 1.6rem;
+                    max-width: 50rem;
+                }
+
+                a {
+                    button {
+                        font-size: 1.6rem;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 55rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #community .community {
+        margin-top: 6rem;
+        padding-top: 6rem;
+
+        .top {
+            .content {
+                h1 {
+                    font-size: 4.5rem;
+                    max-width: 45rem;
+                }
+
+                p {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 60rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #community .community {
+        margin-top: 7rem;
+        padding-top: 7rem;
+
+        .top {
+            .content {
+                h1 {
+                    font-size: 5rem;
+                    max-width: 50rem;
+                    margin-bottom: 1.5rem;
+                }
+
+                p {
+                    font-size: 1.7rem;
+                    margin-bottom: 2.5rem;
+                }
+
+                a {
+                    button {
+                        font-size: 1.7rem;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 65rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #community .community {
+        margin-top: 9rem;
+        padding-top: 9rem;
+
+        .top {
+            .content {
+                h1 {
+                    font-size: 6rem;
+                    max-width: 60rem;
+                    margin-bottom: 2rem;
+                }
+
+                p {
+                    font-size: 1.8rem;
+                    margin-bottom: 3rem;
+                }
+
+                a {
+                    button {
+                        font-size: 1.8rem;
+                    }
+                }
+            }
+        }
+
+        .bottom {
+            .img-container {
+                max-width: 70rem;
+            }
+        }
+    }
+}

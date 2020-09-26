@@ -1,0 +1,247 @@
+#social .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+
+#social .social .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#social .social .top .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#social .social .top .content h1 {
+  color: #E91E63;
+  font-size: 4rem;
+  max-width: 30rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+#social .social .top .content p {
+  color: #8c8b99;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 140%;
+  max-width: 40rem;
+  margin-bottom: 4rem;
+}
+
+#social .social .top .content a:hover button {
+  background-color: #d31d59;
+}
+
+#social .social .top .content a button {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: white;
+  background-color: #E91E63;
+  padding: 0.8rem 2.4rem;
+  text-transform: none;
+}
+
+#social .social bottom {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#social .social bottom .img-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50rem;
+}
+
+@media only screen and (min-width: 576px) {
+  #social .social {
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  #social .social .top .content h1 {
+    font-size: 4.5rem;
+    max-width: 35rem;
+  }
+  #social .social .top .content p {
+    font-size: 1.7rem;
+    max-width: 45rem;
+    margin-bottom: 4.5rem;
+  }
+  #social .social .top .content a button {
+    font-size: 1.7rem;
+  }
+  #social .social .bottom .img-container {
+    max-width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #social .social {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #social .social .top .content h1 {
+    font-size: 5rem;
+    max-width: 40rem;
+  }
+  #social .social .top .content p {
+    font-size: 1.8rem;
+    max-width: 50rem;
+    margin-bottom: 5rem;
+  }
+  #social .social .top .content a button {
+    font-size: 1.8rem;
+  }
+  #social .social .bottom .img-container {
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #social .social {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  #social .social .top {
+    margin-bottom: 0;
+  }
+  #social .social .top .content {
+    text-align: left;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #social .social .top .content h1 {
+    font-size: 3.5rem;
+    max-width: 30rem;
+    margin-bottom: 1rem;
+  }
+  #social .social .top .content p {
+    font-size: 1.5rem;
+    max-width: 40rem;
+    margin-bottom: 2rem;
+  }
+  #social .social .top .content a button {
+    font-size: 1.5rem;
+  }
+  #social .social .bottom .img-container {
+    max-width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #social .social .top .content h1 {
+    font-size: 4rem;
+    max-width: 35rem;
+  }
+  #social .social .top .content p {
+    font-size: 1.6rem;
+    max-width: 43rem;
+  }
+  #social .social .top .content a button {
+    font-size: 1.6rem;
+  }
+  #social .social .bottom .img-container {
+    max-width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #social .social {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #social .social .top .content h1 {
+    font-size: 4.5rem;
+    max-width: 40rem;
+  }
+  #social .social .top .content p {
+    font-size: 1.6rem;
+  }
+  #social .social .bottom .img-container {
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #social .social {
+    margin-top: 7rem;
+    padding-top: 7rem;
+  }
+  #social .social .top .content h1 {
+    font-size: 5rem;
+    max-width: 42rem;
+    margin-bottom: 1.5rem;
+  }
+  #social .social .top .content p {
+    font-size: 1.7rem;
+    margin-bottom: 2.5rem;
+    max-width: 45rem;
+  }
+  #social .social .top .content a button {
+    font-size: 1.7rem;
+  }
+  #social .social .bottom .img-container {
+    max-width: 65rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #social .social {
+    margin-top: 9rem;
+    padding-top: 9rem;
+  }
+  #social .social .top .content h1 {
+    font-size: 6rem;
+    max-width: 50rem;
+    margin-bottom: 2rem;
+  }
+  #social .social .top .content p {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    max-width: 48rem;
+  }
+  #social .social .top .content a button {
+    font-size: 1.8rem;
+  }
+  #social .social .bottom .img-container {
+    max-width: 70rem;
+  }
+}

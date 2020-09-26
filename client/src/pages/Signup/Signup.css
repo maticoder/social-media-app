@@ -1,0 +1,98 @@
+#signup .signup {
+  text-align: center;
+}
+
+#signup .signup .signup-form {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem 0;
+}
+
+#signup .signup .signup-form img {
+  width: 100%;
+  max-width: 30rem;
+  height: auto;
+}
+
+#signup .signup .signup-form h1 {
+  font-size: 7rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+
+#signup .signup .signup-form h1 span:nth-child(1) {
+  color: #4872C8;
+}
+
+#signup .signup .signup-form h1 span:nth-child(2) {
+  color: #E91E63;
+}
+
+#signup .signup .signup-form label,
+#signup .signup .signup-form div {
+  font-size: 1.5rem;
+}
+
+#signup .signup .signup-form .name-input {
+  margin-top: 4rem;
+}
+
+#signup .signup .signup-form .email-input,
+#signup .signup .signup-form .password-input,
+#signup .signup .signup-form .confirm-password-input {
+  margin-top: 1rem;
+}
+
+#signup .signup .signup-form .extensions {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+#signup .signup .signup-form .extensions .accept-terms-of-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#signup .signup .signup-form .extensions .accept-terms-of-service .terms-conditions {
+  color: #E91E63;
+}
+
+#signup .signup .signup-form .extensions svg {
+  font-size: 2rem;
+}
+
+#signup .signup .signup-form .signup-button {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  text-transform: none;
+  margin-bottom: 1rem;
+}
+
+#signup .signup .signup-form .back-button {
+  font-size: 1.5rem;
+  text-transform: none;
+}
+
+#signup .signup .signup-form .have-account {
+  margin-top: 2rem;
+  font-size: 1.5rem;
+}
+
+#signup .signup .signup-form .have-account .log-in-link {
+  color: #E91E63;
+}

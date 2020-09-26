@@ -1,0 +1,245 @@
+#communicate .communicate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 4rem;
+  padding-top: 4rem;
+}
+
+#communicate .communicate .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4rem;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#communicate .communicate .top .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#communicate .communicate .top .content h1 {
+  color: #4872C8;
+  font-size: 4rem;
+  max-width: 40rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+#communicate .communicate .top .content p {
+  color: #8c8b99;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 140%;
+  max-width: 40rem;
+  margin-bottom: 4rem;
+}
+
+#communicate .communicate .top .content a:hover button {
+  background-color: #3d64b1;
+}
+
+#communicate .communicate .top .content a button {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: white;
+  background-color: #4872c8;
+  padding: 0.8rem 2.4rem;
+  text-transform: none;
+}
+
+#communicate .communicate .bottom {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+#communicate .communicate .bottom .img-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50rem;
+}
+
+@media only screen and (min-width: 576px) {
+  #communicate .communicate {
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  #communicate .communicate .top .content h1 {
+    font-size: 4.5rem;
+    max-width: 60rem;
+  }
+  #communicate .communicate .top .content p {
+    font-size: 1.7rem;
+    max-width: 45rem;
+    margin-bottom: 4.5rem;
+  }
+  #communicate .communicate .top .content a button {
+    font-size: 1.7rem;
+  }
+  #communicate .communicate .bottom .img-container {
+    max-width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #communicate .communicate {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #communicate .communicate .top .content h1 {
+    font-size: 5rem;
+    max-width: 65rem;
+  }
+  #communicate .communicate .top .content p {
+    font-size: 1.8rem;
+    max-width: 50rem;
+    margin-bottom: 5rem;
+  }
+  #communicate .communicate .top .content a button {
+    font-size: 1.8rem;
+  }
+  #communicate .communicate .bottom .img-container {
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #communicate .communicate {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+    margin-top: 5rem;
+    padding-top: 5rem;
+  }
+  #communicate .communicate .top {
+    margin-bottom: 0;
+  }
+  #communicate .communicate .top .content {
+    text-align: left;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  #communicate .communicate .top .content h1 {
+    font-size: 3.5rem;
+    max-width: 40rem;
+    margin-bottom: 1rem;
+  }
+  #communicate .communicate .top .content p {
+    font-size: 1.5rem;
+    max-width: 40rem;
+    margin-bottom: 2rem;
+  }
+  #communicate .communicate .top .content a button {
+    font-size: 1.5rem;
+  }
+  #communicate .communicate .bottom .img-container {
+    max-width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  #communicate .communicate .top .content h1 {
+    font-size: 4rem;
+    max-width: 40rem;
+  }
+  #communicate .communicate .top .content p {
+    font-size: 1.6rem;
+    max-width: 50rem;
+  }
+  #communicate .communicate .top .content a button {
+    font-size: 1.6rem;
+  }
+  #communicate .communicate .bottom .img-container {
+    max-width: 55rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #communicate .communicate {
+    margin-top: 6rem;
+    padding-top: 6rem;
+  }
+  #communicate .communicate .top .content h1 {
+    font-size: 4.5rem;
+    max-width: 45rem;
+  }
+  #communicate .communicate .top .content p {
+    font-size: 1.6rem;
+  }
+  #communicate .communicate .bottom .img-container {
+    max-width: 60rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #communicate .communicate {
+    margin-top: 7rem;
+    padding-top: 7rem;
+  }
+  #communicate .communicate .top .content h1 {
+    font-size: 5rem;
+    max-width: 50rem;
+    margin-bottom: 1.5rem;
+  }
+  #communicate .communicate .top .content p {
+    font-size: 1.7rem;
+    margin-bottom: 2.5rem;
+  }
+  #communicate .communicate .top .content a button {
+    font-size: 1.7rem;
+  }
+  #communicate .communicate .bottom .img-container {
+    max-width: 65rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #communicate .communicate {
+    margin-top: 9rem;
+    padding-top: 9rem;
+  }
+  #communicate .communicate .top .content h1 {
+    font-size: 6rem;
+    max-width: 60rem;
+    margin-bottom: 2rem;
+  }
+  #communicate .communicate .top .content p {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+  }
+  #communicate .communicate .top .content a button {
+    font-size: 1.8rem;
+  }
+  #communicate .communicate .bottom .img-container {
+    max-width: 70rem;
+  }
+}

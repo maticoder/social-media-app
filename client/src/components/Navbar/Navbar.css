@@ -1,0 +1,329 @@
+.app-bar {
+  margin-bottom: 10px;
+}
+
+.nav-container {
+  margin: auto;
+}
+
+.nav-container svg {
+  color: #fff;
+}
+
+#nav .nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1.8rem 2rem;
+  position: relative;
+}
+
+#nav .nav .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#nav .nav .logo a img {
+  width: 4.5rem;
+  height: auto;
+}
+
+#nav .nav .logo a h1 {
+  display: none;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 1rem;
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+
+#nav .nav .logo a h1 span.blue-text {
+  color: #4872C8;
+}
+
+#nav .nav .logo a h1 span.pink-text {
+  color: #E91E63;
+}
+
+#nav .nav .navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 1s ease;
+  transition: -webkit-transform 1s ease;
+  transition: transform 1s ease;
+  transition: transform 1s ease, -webkit-transform 1s ease;
+  z-index: 10;
+}
+
+#nav .nav .navigation.active {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+
+#nav .nav .navigation .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#nav .nav .navigation .nav-links .nav-link {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+#nav .nav .navigation .nav-links .nav-link a {
+  font-size: 2rem;
+  font-weight: 400;
+  color: #313A53;
+}
+
+#nav .nav .nav-element {
+  display: none;
+}
+
+#nav .nav .nav-element .nav-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#nav .nav .nav-element .nav-links .nav-link:first-child {
+  margin-right: 2rem;
+}
+
+#nav .nav .nav-element .nav-links .nav-link:last-child {
+  margin-left: 2rem;
+}
+
+#nav .nav .nav-element .nav-links .nav-link a {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+#nav .nav .nav-element .nav-links .nav-link:first-child a {
+  color: #4872C8;
+}
+
+#nav .nav .nav-element .nav-links .nav-link:last-child a {
+  color: #E91E63;
+}
+
+#nav .nav .hamburger {
+  display: inline-block;
+  overflow: visible;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+  -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+  -webkit-transition-property: opacity, -webkit-filter;
+  transition-property: opacity, -webkit-filter;
+  transition-property: opacity, filter;
+  transition-property: opacity, filter, -webkit-filter;
+  text-transform: none;
+  right: 2rem;
+  z-index: 11;
+}
+
+#nav .nav .hamburger.active .hamburger-box .hamburger-inner {
+  -webkit-transform: rotate(225deg);
+          transform: rotate(225deg);
+  -webkit-transition-delay: 0.12s;
+          transition-delay: 0.12s;
+  -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+          transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+#nav .nav .hamburger.active .hamburger-box .hamburger-inner::after {
+  bottom: 0;
+  -webkit-transition: bottom 0.1s ease-out, -webkit-transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+  transition: bottom 0.1s ease-out, -webkit-transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+  transition: bottom 0.1s ease-out, transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+  transition: bottom 0.1s ease-out, transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s, -webkit-transform 0.22s cubic-bezier(0.215, 0.61, 0.355, 1) 0.12s;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+#nav .nav .hamburger.active .hamburger-box .hamburger-inner::before {
+  top: 0;
+  opacity: 0;
+  -webkit-transition: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
+  transition: top 0.1s ease-out, opacity 0.1s ease-out 0.12s;
+}
+
+#nav .nav .hamburger .hamburger-box {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 24px;
+}
+
+#nav .nav .hamburger .hamburger-box .hamburger-inner,
+#nav .nav .hamburger .hamburger-box .hamburger-inner::after,
+#nav .nav .hamburger .hamburger-box .hamburger-inner::before {
+  position: absolute;
+  width: 40px;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #4872C8;
+}
+
+#nav .nav .hamburger .hamburger-box .hamburger-inner {
+  top: 50%;
+  display: block;
+  margin-top: -2px;
+  -webkit-transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+          transition-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  -webkit-transition-duration: 0.22s;
+          transition-duration: 0.22s;
+}
+
+#nav .nav .hamburger .hamburger-box .hamburger-inner::before,
+#nav .nav .hamburger .hamburger-box .hamburger-inner::after {
+  content: "";
+  display: block;
+}
+
+#nav .nav .hamburger .hamburger-box .hamburger-inner::before {
+  top: -10px;
+  -webkit-transition: top 0.1s ease-in 0.25s, opacity 0.1s ease-in;
+  transition: top 0.1s ease-in 0.25s, opacity 0.1s ease-in;
+}
+
+#nav .nav .hamburger .hamburger-box .hamburger-inner::after {
+  bottom: -10px;
+  -webkit-transition: bottom 0.1s ease-in 0.25s, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.1s ease-in 0.25s, -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.1s ease-in 0.25s, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: bottom 0.1s ease-in 0.25s, transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19), -webkit-transform 0.22s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+@media only screen and (min-width: 992px) {
+  #nav .nav .logo a img {
+    width: 3.2rem;
+  }
+  #nav .nav .logo a h1 {
+    font-size: 2.2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  #nav .nav .navigation {
+    position: relative;
+    width: initial;
+    height: initial;
+    display: initial;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    -webkit-transition: none;
+    transition: none;
+  }
+  #nav .nav .navigation .nav-links {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #nav .nav .navigation .nav-links .nav-link {
+    margin: 0 2rem;
+  }
+  #nav .nav .navigation .nav-links .nav-link.additional {
+    display: none;
+  }
+  #nav .nav .navigation .nav-links .nav-link:first-child {
+    margin-left: 0;
+  }
+  #nav .nav .navigation .nav-links .nav-link:last-child {
+    margin-right: 0;
+  }
+  #nav .nav .navigation .nav-links .nav-link a {
+    font-size: 1.5rem;
+  }
+  #nav .nav .nav-element {
+    display: initial;
+  }
+  #nav .nav .nav-element .nav-links .nav-link a {
+    font-size: 1.5rem;
+  }
+  #nav .nav .hamburger {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  #nav .nav .logo a img {
+    width: 3.6rem;
+  }
+  #nav .nav .logo a h1 {
+    font-size: 2.4rem;
+  }
+  #nav .nav .navigation .nav-links .nav-link a {
+    font-size: 1.6rem;
+  }
+  #nav .nav .nav-element {
+    display: initial;
+  }
+  #nav .nav .nav-element .nav-links .nav-link a {
+    font-size: 1.6rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  #nav .nav .logo a img {
+    width: 4rem;
+  }
+  #nav .nav .logo a h1 {
+    font-size: 2.6rem;
+  }
+  #nav .nav .navigation .nav-links .nav-link a {
+    font-size: 1.7rem;
+  }
+  #nav .nav .nav-element {
+    display: initial;
+  }
+  #nav .nav .nav-element .nav-links .nav-link a {
+    font-size: 1.7rem;
+  }
+}

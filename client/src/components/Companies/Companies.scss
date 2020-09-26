@@ -1,0 +1,233 @@
+#companies .companies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4rem;
+    padding-top: 4rem;
+
+    h1 {
+        color: #e91e63;
+        font-size: 4rem;
+        font-weight: 400;
+        text-align: center;
+        line-height: 100%;
+        margin-bottom: 2rem;
+    }
+
+    p {
+        color: #8c8b99;
+        font-size: 1.6rem;
+        font-weight: 300;
+        text-align: center;
+        margin-bottom: 4rem;
+        line-height: 140%;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .company {
+            cursor: pointer;
+            margin: 1.5rem 0;
+
+            &:hover svg path {
+                fill: rgba(140, 139, 153, 1);
+            }
+
+            svg {
+                height: 35px;
+                width: auto;
+
+                path {
+                    fill: rgba(140, 139, 153, 0.4);
+                    transition: fill .2s ease;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    #companies .companies {
+        margin-top: 5rem;
+        padding-top: 5rem;
+
+        h1 {
+            font-size: 4.5rem;
+        }
+
+        p {
+            font-size: 1.7rem;
+        }
+
+        .content {
+            .company {
+                svg {
+                    height: 40px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #companies .companies {
+        margin-top: 6rem;
+        padding-top: 6rem;
+
+        h1 {
+            font-size: 5rem;
+        }
+
+        p {
+            font-size: 1.8rem;
+            margin-bottom: 3rem;
+        }
+
+        .content {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 55rem;
+
+            .company {
+                flex: 45%;
+                display: flex;
+                justify-content: center;
+
+                svg {
+                    height: 45px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    #companies .companies {
+        margin-top: 5rem;
+        padding-top: 5rem;
+
+        h1 {
+            font-size: 3.5rem;
+        }
+
+        p {
+            font-size: 1.5rem;
+        }
+
+        .content {
+            max-width: 100rem;
+
+            .company {
+                flex: 30%;
+
+                svg {
+                    height: 30px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    #companies .companies {
+
+        h1 {
+            font-size: 4rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+        }
+
+        .content {
+            max-width: 100%;
+
+            .company {
+                svg {
+                    height: 35px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #companies .companies {
+        margin-top: 6rem;
+        padding-top: 6rem;
+
+        h1 {
+            font-size: 4.5rem;
+        }
+
+        p {
+            font-size: 1.6rem;
+        }
+
+        .content {
+            max-width: 100%;
+
+            .company {
+                svg {
+                    height: 40px;
+                    width: auto;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    #companies .companies {
+        margin-top: 7rem;
+        padding-top: 7rem;
+
+        h1 {
+            font-size: 5rem;
+        }
+
+        p {
+            font-size: 1.7rem;
+            margin-bottom: 5rem;
+        }
+
+        .content {
+            justify-content: center;
+
+            .company {
+                flex: 0;
+                margin: 0 2rem;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    #companies .companies {
+        margin-top: 9rem;
+        padding-top: 9rem;
+
+        h1 {
+            // font-size: 6rem;
+        }
+
+        p {
+            // font-size: 1.8rem;
+            margin-bottom: 5rem;
+        }
+
+        .content {
+            .company {
+                margin: 0 3rem;
+            }
+        }
+    }
+}
