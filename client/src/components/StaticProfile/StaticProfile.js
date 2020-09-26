@@ -69,6 +69,7 @@ const StaticProfile = (props) => {
                         to={`/users/${name}`}
                         color="primary"
                         variant="h5"
+                        style={{ textDecoration: "none" }}
                     >
                         @{name}
                     </MuiLink>
@@ -77,27 +78,35 @@ const StaticProfile = (props) => {
                     <hr />
                     {location && (
                         <Fragment>
-                            <LocationOn color="primary" />{" "}
-                            <span>{location}</span>
+                            <Typography variant="body2">
+                                <LocationOn color="primary" />{" "}
+                                <span>{location}</span>
+                            </Typography>
                             <hr />
                         </Fragment>
                     )}
                     {website && (
                         <Fragment>
-                            <LinkIcon color="primary" />
-                            <a
-                                href={website}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            >
-                                {" "}
-                                {website}
-                            </a>
+                            <Typography variant="body2">
+                                <LinkIcon color="primary" />
+                                <a
+                                    href={website}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    {" "}
+                                    {website}
+                                </a>
+                            </Typography>
                             <hr />
                         </Fragment>
                     )}
-                    <CalendarToday color="primary" />{" "}
-                    <span>Joined {moment(createdAt).format("MMM YYYY")}</span>
+                    <Typography variant="body2">
+                        <CalendarToday color="primary" />{" "}
+                        <span>
+                            Joined {moment(createdAt).format("MMM YYYY")}
+                        </span>
+                    </Typography>
                 </div>
             </div>
         </Paper>
