@@ -9,7 +9,7 @@ You can also discover other user's profiles, so just simply click the user you a
 ## Live Demo
 
 You may also check the live demo of this application, simply click this link
-[link to application!](https://todo-maticoder.netlify.app/)
+[link to application!](https://social-media-maticoder.netlify.app/)
 
 You can create your own account using your email and password, but if you want, you can also use the user, made specially for this purpose, so you can easier see how the application looks like, just go to login section and fill in the form using this data
 
@@ -17,6 +17,8 @@ You can create your own account using your email and password, but if you want, 
 email: user@email.com
 password: 123456
 ```
+
+Try to create your own posts and update your profile, feel free to check other functionalities of this application.
 
 ## Stack
 
