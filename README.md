@@ -143,3 +143,9 @@ npm start
 ```
 
 in the `client` directory. Once again, remember to make sure that you have got your own firebase project. As I mentioned before, you have to change `config.js` file with your firebase config data and `serviceAccountKey.json` with your key to make this application work properly. You have to also change url to fetch data from firebase to your own url.
+
+## Landing page
+
+The application was designed using `Figma`
+
+![](https://github.com/maticoder/social-media-app/blob/master/images/page.png)
