@@ -42,33 +42,33 @@ The front end of this application was made using `React`, the user data on the c
 
 The back end of this application was made using ExpressJS with the `Firebase functions`. The whole application's data is stored in the firebase `Cloud Firestore`, the user may be authenticated using `JWT` tokens sent with the `Authentication` header. There is only email and password authentication available, but in the future I'm going to add more authentication methods. The user's images are stored in `Firebase storage` and proceeded by the server using `Busboy`. The notifications are provided using `Firebase triggers` so whenever the otehr user comment or like your post, you will be immediately informed.
 
-<!-- ## Implemented functionalities
+## Implemented functionalities
 
 This application is a clone of Twitter, so you can add your own posts, here called as `screams`
 
-![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/work.gif)
+![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/post.gif)
 
 You may also comment and like other's people `screams`
 
-![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/change.gif)
+![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/likeandcomment.gif)
 
 Whenever somebody comment or like your post, you will be immediately informed about that, clicking the notification bell and next particular notification, you will be redirected to the page with the liked or commented post
 
-![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/sort.gif)
+![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/notifications.gif)
 
 You are also able to update you profile image and details about yourself, all the changes are immediately visible
 
-![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/sort.gif)
+![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/profile.gif)
 
 There is also a client and server side validation, so whenever you provide invalid data, you will be informed about that
 
-![alt-text-1](image1.png "title-1") ![alt-text-2](image2.png "title-2")
+![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/login.gif) ![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/signup.gif)
 
 The whole project is connected to the firebase cloud, so the changes are immediately visible in the databse, you can see this on the gif below
 
-![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/sort.gif)
+![](https://github.com/maticoder/todo-firebase-facebook-auth/blob/master/images/immediately.gif)
 
-## How to start using this app?
+<!-- ## How to start using this app?
 
 To start using this application you have to clone or download this repository using
 
