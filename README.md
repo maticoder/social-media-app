@@ -62,7 +62,11 @@ You are also able to update you profile image and details about yourself, all th
 
 There is also a client and server side validation, so whenever you provide invalid data, you will be informed about that
 
-![](https://github.com/maticoder/social-media-app/blob/master/images/login.gif) ![](https://github.com/maticoder/social-media-app/blob/master/images/signup.gif)
+<!-- ![](https://github.com/maticoder/social-media-app/blob/master/images/login.gif) ![](https://github.com/maticoder/social-media-app/blob/master/images/signup.gif) -->
+
+|                                      Login                                      |                                     Sign up                                      |
+| :-----------------------------------------------------------------------------: | :------------------------------------------------------------------------------: |
+| ![](https://github.com/maticoder/social-media-app/blob/master/images/login.gif) | ![](https://github.com/maticoder/social-media-app/blob/master/images/signup.gif) |
 
 The whole project is connected to the firebase cloud, so the changes are immediately visible in the databse, you can see this on the gif below
 
