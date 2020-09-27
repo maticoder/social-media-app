@@ -3,9 +3,9 @@ import withStyles from "@material-ui/core/styles/withStyles";
 import MyButton from "../../util/MyButton";
 import moment from "moment";
 import { Link } from "react-router-dom";
-import LikeButton from "../LikeButton/LikeButton";
 import Comments from "../Comments/Comments";
 import CommentForm from "../CommentForm/CommentForm";
+import FavoriteIcon from "@material-ui/icons/Favorite";
 
 // MUI Stuff
 import {
@@ -141,7 +141,9 @@ class ScreamDialog extends Component {
                     </Typography>
                     <hr className={classes.invisibleSeparator} />
                     <Typography variant="body1">{body}</Typography>
-                    <LikeButton screamId={screamId} />
+                    <MyButton tip="likes">
+                        <FavoriteIcon color="primary" />
+                    </MyButton>
                     <span>{likeCount} likes</span>
                     <MyButton tip="comments">
                         <ChatIcon color="primary" />
