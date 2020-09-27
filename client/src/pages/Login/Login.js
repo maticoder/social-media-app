@@ -108,6 +108,7 @@ class Login extends Component {
                                         ? true
                                         : false
                                 }
+                                autoComplete="off"
                             />
                         </div>
                         <div className="password-input">
@@ -128,6 +129,7 @@ class Login extends Component {
                                         ? true
                                         : false
                                 }
+                                autoComplete="off"
                             />
                         </div>
                         {this.state.errors.general && (

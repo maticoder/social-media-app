@@ -96,6 +96,7 @@ class Signup extends Component {
                                 variant="outlined"
                                 helperText={this.state.errors.name}
                                 error={this.state.errors.name ? true : false}
+                                autoComplete="off"
                             />
                         </div>
                         <div className="email-input">
@@ -110,6 +111,7 @@ class Signup extends Component {
                                 variant="outlined"
                                 helperText={this.state.errors.email}
                                 error={this.state.errors.email ? true : false}
+                                autoComplete="off"
                             />
                         </div>
                         <div className="password-input">
@@ -126,6 +128,7 @@ class Signup extends Component {
                                 error={
                                     this.state.errors.password ? true : false
                                 }
+                                autoComplete="off"
                             />
                         </div>
                         <div className="confirm-password-input">
@@ -144,6 +147,7 @@ class Signup extends Component {
                                         ? true
                                         : false
                                 }
+                                autoComplete="off"
                             />
                         </div>
                         <div className="extensions">
